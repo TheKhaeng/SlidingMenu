@@ -19,7 +19,7 @@ Maven
 
 Gradle
 ```gradle
-compile ('com.github.thekhaeng:sliding-menu:1.0.0') {
+compile ('com.github.thekhaeng:sliding-menu:1.0.0@arr') {
     exclude group: 'com.android.support', module: 'appcompat-v7'
 }
 ```
