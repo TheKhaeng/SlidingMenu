@@ -12,14 +12,14 @@ Maven
 <dependency>
   <groupId>com.github.thekhaeng</groupId>
   <artifactId>sliding-menu</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <type>pom</type>
 </dependency>
 ```
 
 Gradle
 ```gradle
-compile ('com.github.thekhaeng:sliding-menu:1.0.1@arr') {
+compile ('com.github.thekhaeng:sliding-menu:1.0.2@arr') {
     exclude group: 'com.android.support', module: 'appcompat-v7'
 }
 ```
