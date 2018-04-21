@@ -12,7 +12,7 @@ ext {
     siteUrl = 'https://github.com/TheKhaeng/sliding-menu'
     gitUrl = 'https://github.com/TheKhaeng/sliding-menu.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.3'
 
     developerId = 'nonthawit'
     developerName = 'Nonthawit Doungsodsri'
@@ -24,14 +24,14 @@ ext {
 }
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -44,9 +44,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    testCompile 'junit:junit:4.12'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'

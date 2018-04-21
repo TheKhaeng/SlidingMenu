@@ -5,6 +5,14 @@ SlidingMenu is an Open Source Android library that allows developers to easily c
 with sliding menus like those made popular in the Google+, YouTube, and Facebook apps. Feel free
 to use it all you want in your Android apps provided that you cite this project and include the license in your app.
 
+## Version
+
+**version 1.0.3**
+
+- change deprecate method
+- fix bug system UI (insets)
+
+
 ## 「 Installation 」
 
 Maven
@@ -12,14 +20,14 @@ Maven
 <dependency>
   <groupId>com.github.thekhaeng</groupId>
   <artifactId>sliding-menu</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <type>pom</type>
 </dependency>
 ```
 
 Gradle
 ```gradle
-compile ('com.github.thekhaeng:sliding-menu:1.0.2@arr') {
+compile ('com.github.thekhaeng:sliding-menu:1.0.3@arr') {
     exclude group: 'com.android.support', module: 'appcompat-v7'
 }
 ```
